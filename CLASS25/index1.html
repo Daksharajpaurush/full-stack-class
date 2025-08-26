@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css1/main1.css">
+</head>
+<body>
+    <div class="main">
+        <div class="head">
+            <h1>
+            Job Application Form
+        </h1>
+        </div>
+        
+        <div class="head1">
+        <h2>
+            Personal Info
+        </h2>
+        <form action="">
+            <label for="name">First Name</label>
+            <input type="text" id="name" name="name" >
+
+            <label for="name">Second Name</label>
+            <input type="text" id="name" name="name">
+
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email">
+
+            <label for="phone">Phone</label>
+            <input type="tel" id="phone" name="phone">
+        </form>
+        </div>
+
+        <div class="head2">
+        <h2>
+            Job Details
+        </h2>
+        <form action="">
+            <label for="position">Position Applied</label>
+            <select name="position" id="position" required>
+                <option value=""disabled selected>Select</option>
+                <option value="software-eng">Software Eng.</option>
+                <option value="fullstack">Fullstack</option>
+                <option value="backend">Backend</option>
+               <option value="frontend">Frontend</option>
+            </select>
+            <label for="number">Years Of Experience</label>
+            <input type="number" name="number" id="number">
+        </form>
+        </div>
+
+        <div class="head3">
+        <h2>
+            Availablity
+        </h2>
+        <form action="">
+            <label for="date">Available Seat Date</label>
+            <input type="date" name="date" id="date">
+
+            <p>Willing To Relocate</p>
+            <label for="yes">Yes</label>
+            <input type="radio" name="yes" id="yes" required>
+            <label for="no">No</label>
+            <input type="radio" name="yes" id="no">
+        </form>
+        </div>
+    </div>
+</body>
+</html>
